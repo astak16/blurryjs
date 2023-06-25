@@ -1,0 +1,63 @@
+{
+  "name": "blurryjs",
+  "version": "1.0.0",
+  "description": "blurryjs 是一款全局文本自动模糊工具，适用于 react/vue 等框架",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "rollup --bundleConfigAsCjs --config rollup.config.js"
+  },
+  "keywords": [
+    "全局模糊",
+    "模糊",
+    "blur",
+    "auto-blur",
+    "global-blur",
+    "blurry",
+    "blurryjs",
+    "blurjs",
+    "blurry-js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/astak16/blurryjs.git"
+  },
+  "author": "柚子uccs",
+  "license": "MIT",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "package.json"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/plugin-transform-runtime": "^7.22.4",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-typescript": "^7.21.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@types/lodash": "^4.14.191",
+    "@types/qs": "^6.9.7",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.26",
+    "@types/tinycolor2": "^1.4.3",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "antd": "^5.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "rollup": "^3.23.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "styled-components": "^5.3.11",
+    "typescript": "^5.0.4",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "blurryjs": "^1.0.0"
+  }
+}
