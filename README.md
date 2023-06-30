@@ -69,7 +69,7 @@ const blur = new Blur({
 
 ## 效果
 
-![20230625](./images/20230625.gif)
+![20230625](https://github.com/astak16/blurryjs/blob/master/images/20230625.gif?raw=true)
 
 ## 为什么要做这个插件
 
